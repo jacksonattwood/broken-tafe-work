@@ -29,13 +29,13 @@ nav{
     margin: auto;
 }
 
-li{
+nav li{
     list-style: none;
     display: inline-block;
     margin: 1em;
 }
 
-ul{
+nav ul{
     display: flex; 
     /* margin-left: 65vw; */
     margin-left: 350px;
@@ -53,6 +53,7 @@ a{
 
 #mainBanner{
     background-image: url(/images/mainImage.jpg);
+    background-size: cover;
     height: 300px;
     max-width: 950px;
     /* margin: auto; */
@@ -82,5 +83,20 @@ main img{
 .container{
     margin: auto;
     width: 950px;
+    text-align: center;
+    /* color: #8cc641; */
 }
 
+.wideDiv{
+    width: 100%;
+    background-color: white;
+}
+
+.pink{
+    color: #c61865;
+}
+
+.blue{
+    color: #1b3179;
+    font-weight: lighter;
+}
